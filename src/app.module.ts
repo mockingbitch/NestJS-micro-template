@@ -10,7 +10,7 @@ import { UsersModule } from './users/users.module';
       port: 3306,
       username: 'user',
       password: 'password',
-      database: 'test',
+      database: 'nest_js',
       entities: [__dirname + '/../**/*.entity{.ts,.js}'],
       synchronize: true,
     }),
